@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  text-align: center;
+}
+
+#button {
+  background-color: #5e17eb;
+  padding: 2% 10%;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  width: 50%;
+  margin-top: 3px;
+}
+
+#button:hover {
+  background-color: blue;
+}
